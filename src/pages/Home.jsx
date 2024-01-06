@@ -33,7 +33,7 @@ const Home = () => {
                                 Computer engineer & software developer with experience in technologies such as PHP, Laravel, Java, SQL, JavaScript, React, Node & testing with Jest.
                             </p>
                             <div className="mt-5 bg-indigo-300 w-fit p-3 rounded font-bold">
-                                <a href="./src/assets/CV_Juan_Quijano.pdf" download={true}>Download CV</a>
+                                <a href="./images/CV_Juan_Quijano.pdf" download={true}>Download CV</a>
                             </div>
                         </div>)}
                 </div>

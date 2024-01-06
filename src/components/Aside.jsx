@@ -31,11 +31,11 @@ const Aside = () => {
 
                 <div className="flex justify-center items-center gap-2 mt-5">
                     <a href="https://github.com/JuanMQuijano" target="_blank" className="w-10">
-                        <img src="./src/assets/github-mark.png" alt="GitHub Logo" />
+                        <img src="./images/github-mark.png" alt="GitHub Logo" />
                     </a>
 
                     <a href="https://www.linkedin.com/in/juan-quijano/" target="_blank" className="w-10">
-                        <img src="./src/assets/LI-In-Bug.png" alt="LinkedIn Logo" />
+                        <img src="./images/LI-In-Bug.png" alt="LinkedIn Logo" />
                     </a>
                 </div>
 
