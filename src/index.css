@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.handjet {
+  font-family: "Handjet", cursive;
+  /* font-family: "Raleway", sans-serif; */
+}
+
+.primero {
+  background-color: #ff715b;
+  color: white;
+}
+
+.enlace-activo {
+  background: #000;
+  color: white;
+}
+
+.texto {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 4s steps(120) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
