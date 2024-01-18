@@ -27,7 +27,7 @@ const Aside = () => {
             </nav>
 
             <div className="text-center capitalize mt-10">
-                <p>You can reach via <a className="underline" href="mailto:juanchoquijano20@hotmail.com">email</a></p>
+                <p>You can reach me via <a className="underline" href="mailto:juanchoquijano20@hotmail.com">email</a></p>
 
                 <div className="flex justify-center items-center gap-2 mt-5">
                     <a href="https://github.com/JuanMQuijano" target="_blank" className="w-10">

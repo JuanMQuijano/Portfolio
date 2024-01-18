@@ -24,7 +24,7 @@ const Home = () => {
 
                 <div>
 
-                    <h1 className="text-2xl font-mono texto">Hello, my name is Juan :)</h1>
+                    <h1 className="text-2xl font-mono texto">Hello, my name is Juan 👋🏻 :)</h1>
 
                     <br />
                     {show && (
