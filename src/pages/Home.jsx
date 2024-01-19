@@ -19,17 +19,17 @@ const Home = () => {
     }, [])
 
     return (
-        <div className="min-h-screen w-5/6 mx-auto mt-36 animate__animated animate__backInRight">
+        <div className="min-h-screen w-5/6 mx-auto mt-5 md:mt-36 animate__animated animate__backInRight">
             <div className="flex flex-col gap-1  p-3">
 
                 <div>
 
-                    <h1 className="text-2xl font-mono texto">Hello, my name is Juan 👋🏻 :)</h1>
+                    <h1 className="text-xl md:text-2xl font-mono texto">Hello, my name is Juan 👋🏻 :)</h1>
 
                     <br />
                     {show && (
                         <div className="animate__animated animate__fadeInRight">
-                            <p className="text-2xl font-mono capitalize">
+                            <p className="text-xl md:text-2xl font-mono capitalize">
                                 Computer engineer & software developer with experience in technologies such as PHP, Laravel, Java, SQL, JavaScript, React, Node & testing with Jest.
                             </p>
                             <div className="mt-5 bg-indigo-300 w-fit p-3 rounded font-bold">
@@ -42,9 +42,9 @@ const Home = () => {
 
                 {show && (<>
                     <div className="animate__animated animate__fadeInRight" >
-                        <h3 className="text-2xl font-bold uppercase">Certificates</h3>
+                        <h3 className="text-xl md:text-2xl font-bold uppercase">Certificates</h3>
 
-                        <div className="grid grid-cols-4 gap-5 mt-5">
+                        <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-16 mt-5">
                             {certificatesURLS.map((e,) => (<Certificate key={e} src={e} />))}
                         </div>
 

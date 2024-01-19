@@ -4,7 +4,7 @@ import Aside from "../components/Aside"
 const HomeLayout = () => {
 
     return (
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
             <Aside />
 
             <main className="flex-1">
