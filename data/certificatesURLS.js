@@ -1,6 +1,7 @@
 const PATH = "./images/";
 
 export const certificatesURLS = [
+  "https://udemy-certificate.s3.amazonaws.com/image/UC-533f2fbf-341b-4074-a163-5930836b7423.jpg",
   "https://udemy-certificate.s3.amazonaws.com/image/UC-f7637c0b-9818-4f85-b129-5fa65c28b93e.jpg",
   "https://udemy-certificate.s3.amazonaws.com/image/UC-3c9a6b25-ec18-4edf-b69f-a4356e731fa8.jpg",
   "https://udemy-certificate.s3.amazonaws.com/image/UC-396046eb-3855-4b65-87a1-7cbb16c3d649.jpg",
